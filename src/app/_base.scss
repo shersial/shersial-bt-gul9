@@ -1,0 +1,30 @@
+// base.scss
+body{
+	font-size: 13px;
+	
+}
+// main scss
+.main{
+	.jumbotron {
+		.h1{
+			span{
+				color:#4e6eb5;
+			}
+		}
+		.lead{
+			color: #4e6eb5;
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+		}
+	}
+	.thumbnail{
+		display: inline-block;
+		height: auto!important;
+		img{
+			height: 280px;
+		}
+		.h3{
+			font-size: 20px;
+		}
+	}
+}
